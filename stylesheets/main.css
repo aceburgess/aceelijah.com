@@ -46,12 +46,17 @@ table {
 
 /* Ace's Homemade Responsive CSS */
 
+html {
+  background-color: black;
+  background: url(../imgs/ace_elijah.jpg) no-repeat left top fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
 body {
   width, height: 100%;
-  background-repeat: no-repeat;
-  background-color: black;
-  background-image: url("../imgs/ace_elijah.jpg");
-  background-size: cover;
 }
 
 a {
@@ -73,13 +78,14 @@ a i {
 
 .col-1-1 {
   width: 100%;
-  height: 20px;
+  height: 60px;
 }
 
 .header h1 {
-  font-family: 'Arcade';
-  color: rgba(10, 30, 10, 0.9);
-  font-size: 90%;
+  font-family: 'signature';
+  color: rgba(255, 250, 245, 0.9);
+  font-size: 180%;
+  letter-spacing: 0.1em;
   line-height: 1.3em;
 }
 
@@ -87,11 +93,11 @@ a i {
   font-size: 140%;
 }
 
-.col-1-3 {
+.col-1-2 {
   width: 33.33%;
 }
 
-.col-2-3 {
+.col-2-2 {
   width: 66.66%;
 }
 
@@ -108,20 +114,20 @@ a i {
 }
 
 .grid-pad {
-  padding: 30px;
+  padding: 40px;
 }
 
 
 /* Fonts */
 
 @font-face {
-  font-family: 'FONT NAME';
-  src: url(fonts/ENTER FONT HERE);
+  font-family: 'signature';
+  src: url(../fonts/lines_curves.ttf);
 }
 
 @font-face {
   font-family: 'FONT NAME';
-  src: url(fonts/ENTER FONT HERE);
+  src: url(../fonts/ENTER FONT HERE);
   font-weight: 400;
   font-style: normal;
 }
