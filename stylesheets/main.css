@@ -1,0 +1,128 @@
+/* RESET CSS */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Ace's Homemade Responsive CSS */
+
+body {
+  width, height: 100%;
+  background-repeat: no-repeat;
+  background-color: black;
+  background-image: url("../imgs/ace_elijah.jpg");
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+}
+
+a i {
+  color: rgba(10, 20, 10, 0.8);
+}
+
+[class*='col-'] {
+  float: left;
+  padding-right: 20px;
+}
+
+[class*='col-']:last-of-type {
+  padding-right: 0;
+}
+
+.col-1-1 {
+  width: 100%;
+  height: 20px;
+}
+
+.header h1 {
+  font-family: 'Arcade';
+  color: rgba(10, 30, 10, 0.9);
+  font-size: 90%;
+  line-height: 1.3em;
+}
+
+.header h1 span {
+  font-size: 140%;
+}
+
+.col-1-3 {
+  width: 33.33%;
+}
+
+.col-2-3 {
+  width: 66.66%;
+}
+
+.grid:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+.grid-pad {
+  padding: 30px;
+}
+
+
+/* Fonts */
+
+@font-face {
+  font-family: 'FONT NAME';
+  src: url(fonts/ENTER FONT HERE);
+}
+
+@font-face {
+  font-family: 'FONT NAME';
+  src: url(fonts/ENTER FONT HERE);
+  font-weight: 400;
+  font-style: normal;
+}
+
