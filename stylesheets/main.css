@@ -9,7 +9,8 @@ html {
 }
 
 .navbar-default {
-  background-color: black !important;
+  background-color: rgba(0,0,0,0) !important;
+  border-style: none !important;
 }
 
 .navbar-brand {
